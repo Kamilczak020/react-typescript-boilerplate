@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "airbnb-typescript",
+    "airbnb/hooks"
+  ],
+  "rules": {
+    "quotes": ["error", "single"],
+    "linebreak-style": "off",
+    "import/no-cycle": "off",
+    "import/prefer-default-export": "off",
+    "react/destructuring-assignment": "off",
+    "object-curly-newline": "off",
+    "react/prop-types": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-restricted-syntax": "off"
+  }
+}
